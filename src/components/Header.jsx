@@ -25,7 +25,7 @@ export default function Header() {
 
   return (
     <>
-      <CartModal ref={modal} title='Your Cart' actions={modalActions} itemz={itemz} />
+      <CartModal ref={modal} title='Your Cart' actions={modalActions} />
       <header id='main-header'>
         <div id='main-title'>
           <img src='logo.png' alt='Elegant model' />
